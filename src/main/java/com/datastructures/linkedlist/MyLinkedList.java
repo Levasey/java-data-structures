@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Реализация односвязного списка для хранения целых чисел
  */
-public class LinkedList {
+public class MyLinkedList {
     private Node head;
     private int size;
 
