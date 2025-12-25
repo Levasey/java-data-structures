@@ -1,14 +1,14 @@
-import com.datastructures.linkedlist.LinkedList;
+import com.datastructures.linkedlist.MyLinkedList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListTest {
-    private LinkedList list;
+    private MyLinkedList list;
 
     @BeforeEach
     public void setUp() {
-        list = new LinkedList();
+        list = new MyLinkedList();
     }
 
     @Test
